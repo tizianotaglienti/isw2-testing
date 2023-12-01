@@ -3,7 +3,6 @@ Tiziano Taglienti - 0304926
 
 BookKeeper:
 
-bookkeeper-server.src.main.java.org.apache.bookkeeper.bookie.FileInfo
 bookkeeper-server.src.main.java.org.apache.bookkeeper.bookie.storage.ldb.ReadCache
 bookkeeper-server.src.main.java.org.apache.bookkeeper.bookie.storage.ldb.WriteCache
 bookkeeper-server.src.main.java.org.apache.bookkeeper.util.ByteBufList
@@ -11,6 +10,6 @@ bookkeeper-server.src.main.java.org.apache.bookkeeper.util.ByteBufList
 
 Storm:
 
+storm-client.src.jvm.org.apache.storm.bolt.JoinBolt
 storm-client.src.jvm.org.apache.storm.coordination.CoordinatedBolt
-storm-client.src.jvm.org.apache.storm.topology.WindowedBoltExecutor
 
